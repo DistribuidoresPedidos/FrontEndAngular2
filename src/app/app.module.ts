@@ -9,6 +9,10 @@ import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ServicesComponent } from './services/services.component';
+import { SecondOptionComponent } from './second-option/second-option.component';
+import { HeroComponent } from './second-option/hero/hero.component';
+import { Navbar2Component } from './second-option/navbar2/navbar2.component';
+import { Services2Component } from './second-option/services2/services2.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { ServicesComponent } from './services/services.component';
     ContentComponent,
     FooterComponent,
     CarouselComponent,
-    ServicesComponent
+    ServicesComponent,
+    SecondOptionComponent,
+    HeroComponent,
+    Navbar2Component,
+    Services2Component
   ],
   imports: [
     BrowserModule,
